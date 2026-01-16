@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Protezione Civile - Profilo Operatore</title>
+    <style>
+        /* ========================================
+           DESIGN SYSTEM - Protezione Civile
+           Colori istituzionali: Blu e Arancione
+        ======================================== */
+        :root {
+            /* Colori primari */
+            --primary-blue: #0053A6;
+            --dark-blue: #022A4A;
+            --light-blue: #E5F1FB;
+            --accent-orange: #F26B0F;
+            --accent-orange-hover: #E95B00;
+            
+            /* Colori Italia */
+            --italy-green: #009246;
+            --italy-red: #CE2B37;
+            
+            /* Neutrali */
+            --white: #FFFFFF;
+            --bg-light: #F5F5F7;
+            --text-dark: #022A4A;
+            --text-medium: #4A4F57;
+            --border-gray: #D0D4DB;
+            
+            /* Ombre */
+            --shadow-card: 0 2px 8px rgba(2, 42, 74, 0.1);
+            --shadow-header: 0 2px 4px rgba(2, 42, 74, 0.15);
+            
+            /* Transizioni */
+            --transition: 0.3s ease;
+        }
+        
+        /* ========================================
+           RESET E BASE
+        ======================================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* ========================================
+           HEADER ISTITUZIONALE
+        ======================================== */
+        .institutional-bar {
+            background: linear-gradient(90deg, var(--italy-green) 0%, var(--italy-green) 33%, var(--white) 33%, var(--white) 66%, var(--italy-red) 66%, var(--italy-red) 100%);
+            height: 4px;
+        }
+        
+        header {
+            background-color: var(--dark-blue);
+            color: var(--white);
+            padding: 1.5rem 2rem;
+            box-shadow: var(--shadow-header);
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .logo {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--white);
+        }
+        
+        .site-title {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .site-title h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .site-title .subtitle {
+            font-size: 0.875rem;
+            color: var(--light-blue);
+            font-weight: 400;
+        }
+        
+        /* ========================================
+           CONTAINER PRINCIPALE
+        ======================================== */
+        main {
+            flex: 1;
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+            width: 100%;
+        }
+        
+        /* ========================================
+           CARD OPERATORE
+        ======================================== */
+        .operator-card {
+            background: var(--white);
+            border-radius: 8px;
+            box-shadow: var(--shadow-card);
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+        
+        .card-header {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-blue) 100%);
+            color: var(--white);
+            padding: 2rem;
+            position: relative;
+        }
+        
+        .card-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--accent-orange);
+        }
+        
+        .operator-id {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--accent-orange);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .operator-name {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        .operator-role {
+            font-size: 1.125rem;
+            color: var(--light-blue);
+            font-weight: 400;
+        }
+        
+        .card-body {
+            padding: 2rem;
+        }
+        
+        /* ========================================
+           SEZIONE CORSI
+        ======================================== */
+        .section-title {
+            font-size: 1.5rem;
+            color: var(--dark-blue);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--accent-orange);
+            display: inline-block;
+        }
+        
+        .courses-list {
+            display: grid;
+            gap: 1rem;
+        }
+        
+        .course-item {
+            background: var(--bg-light);
+            border-left: 4px solid var(--primary-blue);
+            padding: 1.25rem;
+            border-radius: 4px;
+            transition: all var(--transition);
+            position: relative;
+        }
+        
+        .course-item:hover {
+            border-left-color: var(--accent-orange);
+            box-shadow: 0 2px 12px rgba(242, 107, 15, 0.1);
+            transform: translateX(4px);
+        }
+        
+        .course-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .course-name {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--dark-blue);
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .course-year {
+            background: var(--accent-orange);
+            color: var(--white);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        
+        .course-details {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            color: var(--text-medium);
+            font-size: 0.9375rem;
+        }
+        
+        .course-detail {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .course-detail-label {
+            font-weight: 600;
+            color: var(--primary-blue);
+        }
+        
+        .course-actions {
+            margin-top: 0.75rem;
+        }
+        
+        .edit-mode .course-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        /* ========================================
+           PULSANTI
+        ======================================== */
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+        }
+        
+        .btn-primary {
+            background-color: var(--accent-orange);
+            color: var(--white);
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--accent-orange-hover);
+            box-shadow: 0 4px 12px rgba(242, 107, 15, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background-color: var(--primary-blue);
+            color: var(--white);
+        }
+        
+        .btn-secondary:hover {
+            background-color: var(--dark-blue);
+            box-shadow: 0 4px 12px rgba(0, 83, 166, 0.3);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            color: var(--primary-blue);
+            border: 2px solid var(--primary-blue);
+        }
+        
+        .btn-outline:hover {
+            background-color: var(--primary-blue);
+            color: var(--white);
+        }
+        
+        .btn-danger {
+            background-color: #DC2626;
+            color: var(--white);
+        }
+        
+        .btn-danger:hover {
+            background-color: #B91C1C;
+        }
+        
+        .btn-small {
+            padding: 0.5rem 1rem;
+            font-size: 0.875rem;
+        }
+        
+        .btn-block {
+            width: 100%;
+            justify-content: center;
+        }
+        
+        /* ========================================
+           MESSAGGI E ALERT
+        ======================================== */
+        .alert {
+            padding: 1.5rem;
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid;
+        }
+        
+        .alert-error {
+            background-color: #FEE2E2;
+            border-left-color: #DC2626;
+            color: #7F1D1D;
+        }
+        
+        .alert-info {
+            background-color: var(--light-blue);
+            border-left-color: var(--primary-blue);
+            color: var(--dark-blue);
+        }
+        
+        .alert-warning {
+            background-color: #FEF3C7;
+            border-left-color: #F59E0B;
+            color: #78350F;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--text-medium);
+        }
+        
+        .empty-state-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--primary-blue);
+        }
+        
+        /* ========================================
+           MODALE
+        ======================================== */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(2, 42, 74, 0.8);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+        
+        .modal.active {
+            display: flex;
+        }
+        
+        .modal-content {
+            background: var(--white);
+            border-radius: 8px;
+            max-width: 500px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 60px rgba(2, 42, 74, 0.4);
+        }
+        
+        .modal-header {
+            background: var(--dark-blue);
+            color: var(--white);
+            padding: 1.5rem;
+            border-bottom: 4px solid var(--accent-orange);
+        }
+        
+        .modal-header h2 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        
+        .modal-body {
+            padding: 2rem;
+        }
+        
+        .modal-footer {
+            padding: 1rem 2rem;
+            background: var(--bg-light);
+            display: flex;
+            gap: 1rem;
+            justify-content: flex-end;
+        }
+        
+        /* ========================================
+           FORM
+        ======================================== */
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--dark-blue);
+        }
+        
+        .form-input,
+        .form-select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid var(--border-gray);
+            border-radius: 4px;
+            font-size: 1rem;
+            transition: all var(--transition);
+        }
+        
+        .form-input:focus,
+        .form-select:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgba(0, 83, 166, 0.1);
+        }
+        
+        /* ========================================
+           FOOTER
+        ======================================== */
+        footer {
+            background-color: var(--dark-blue);
+            color: var(--white);
+            padding: 2rem;
+            margin-top: auto;
+            text-align: center;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            font-size: 0.875rem;
+            line-height: 1.8;
+        }
+        
+        .footer-divider {
+            height: 1px;
+            background: rgba(255, 255, 255, 0.2);
+            margin: 1rem 0;
+        }
+        
+        /* ========================================
+           EDIT MODE
+        ======================================== */
+        .edit-toolbar {
+            background: var(--light-blue);
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .edit-toolbar-title {
+            font-weight: 600;
+            color: var(--dark-blue);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .edit-toolbar-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        /* ========================================
+           RESPONSIVE
+        ======================================== */
+        @media (max-width: 768px) {
+            header {
+                padding: 1rem 1.5rem;
+            }
+            
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .logo {
+                width: 50px;
+                height: 50px;
+            }
+            
+            .site-title h1 {
+                font-size: 1.25rem;
+            }
+            
+            .operator-name {
+                font-size: 1.5rem;
+            }
+            
+            .card-header,
+            .card-body {
+                padding: 1.5rem;
+            }
+            
+            .course-header {
+                flex-direction: column;
+            }
+            
+            .course-name {
+                min-width: 100%;
+            }
+            
+            .course-details {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            
+            .edit-toolbar {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .edit-toolbar-actions {
+                justify-content: stretch;
+            }
+            
+            .btn {
+                justify-content: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            main {
+                padding: 0 1rem;
+            }
+            
+            .btn {
+                padding: 0.625rem 1rem;
+                font-size: 0.9375rem;
+            }
+        }
+        
+        /* ========================================
+           UTILITY
+        ======================================== */
+        .hidden {
+            display: none !important;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-medium);
+        }
+        
+        .loading::after {
+            content: '...';
+            animation: dots 1.5s steps(4, end) infinite;
+        }
+        
+        @keyframes dots {
+            0%, 20% { content: '.'; }
+            40% { content: '..'; }
+            60%, 100% { content: '...'; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra istituzionale tricolore -->
+    <div class="institutional-bar"></div>
+    
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="https://customer-assets.emergentagent.com/job_static-cards/artifacts/w3g24fp7_N2.png" alt="Logo Protezione Civile" class="logo">
+                <div class="site-title">
+                    <h1>Protezione Civile Forio CB</h1>
+                    <span class="subtitle">Profilo Operatori - Sistema di Gestione Corsi</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Contenuto principale -->
+    <main id="mainContent">
+        <div class="loading">Caricamento dati operatore</div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p><strong>Associazione Protezione Civile Forio CB Volontariato - 1995</strong></p>
+            <div class="footer-divider"></div>
+            <p>Sistema di gestione profili operatori</p>
+        </div>
+    </footer>
+    
+    
+    <!-- JavaScript Application -->
+    <script>
+        // ========================================
+        // CONFIGURAZIONE
+        // ========================================
+        const CONFIG = {
+            DATA_FILE: 'dati.json'
+        };
+        
+        // ========================================
+        // STATE MANAGEMENT
+        // ========================================
+        let appState = {
+            operatorId: null,
+            operatorData: null,
+            allData: null
+        };
+        
+        // ========================================
+        // INIZIALIZZAZIONE
+        // ========================================
+        document.addEventListener('DOMContentLoaded', () => {
+            initApp();
+        });
+        
+        async function initApp() {
+            // Legge parametro URL
+            const urlParams = new URLSearchParams(window.location.search);
+            appState.operatorId = urlParams.get('id');
+            
+            if (!appState.operatorId) {
+                showError('Parametro "id" mancante nell\'URL. Esempio: ?id=N164');
+                return;
+            }
+            
+            // Carica dati
+            await loadData();
+        }
+        
+        // ========================================
+        // CARICAMENTO DATI
+        // ========================================
+        async function loadData() {
+            try {
+                // Carica il file JSON
+                const response = await fetch(CONFIG.DATA_FILE);
+                if (!response.ok) {
+                    throw new Error('Impossibile caricare il file dati.json');
+                }
+                appState.allData = await response.json();
+                
+                // Trova l'operatore
+                findOperator();
+                
+            } catch (error) {
+                console.error('Errore nel caricamento dei dati:', error);
+                showError('Errore nel caricamento dei dati: ' + error.message);
+            }
+        }
+        
+        function findOperator() {
+            if (!appState.allData || !appState.allData.operatori) {
+                showError('Struttura dati non valida nel file dati.json');
+                return;
+            }
+            
+            const operator = appState.allData.operatori[appState.operatorId];
+            
+            if (!operator) {
+                showError(`Operatore con ID "${appState.operatorId}" non trovato nel sistema.`);
+                return;
+            }
+            
+            appState.operatorData = operator;
+            renderOperator();
+        }
+        
+        // ========================================
+        // RENDERING
+        // ========================================
+        function renderOperator() {
+            const main = document.getElementById('mainContent');
+            
+            const html = `
+                <div class="operator-card">
+                    <div class="card-header">
+                        <div class="operator-id">ID: ${appState.operatorId}</div>
+                        <h2 class="operator-name">${appState.operatorData.nome} ${appState.operatorData.cognome}</h2>
+                        <div class="operator-role">${appState.operatorData.qualifica}</div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <h3 class="section-title">📚 Corsi Svolti</h3>
+                        ${renderCourses()}
+                    </div>
+                </div>
+            `;
+            
+            main.innerHTML = html;
+        }
+        
+        function renderCourses() {
+            if (!appState.operatorData.corsi || appState.operatorData.corsi.length === 0) {
+                return `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📋</div>
+                        <p><strong>Nessun corso registrato</strong></p>
+                        <p>Accedi alla modalità modifica per aggiungere corsi.</p>
+                    </div>
+                `;
+            }
+            
+            return `
+                <div class="courses-list">
+                    ${appState.operatorData.corsi.map((corso, index) => renderCourse(corso, index)).join('')}
+                </div>
+            `;
+        }
+        
+        function renderCourse(corso, index) {
+            return `
+                <div class="course-item">
+                    <div class="course-header">
+                        <div class="course-name">${corso.nome}</div>
+                        <div class="course-year">${corso.anno}</div>
+                    </div>
+                    <div class="course-details">
+                        <div class="course-detail">
+                            <span class="course-detail-label">Ente:</span>
+                            <span>${corso.ente}</span>
+                        </div>
+                        <div class="course-detail">
+                            <span class="course-detail-label">Durata:</span>
+                            <span>${corso.ore}</span>
+                        </div>
+                    </div>
+                    
+                    ${corso.pdf ? `
+                        <div style="margin-top: 1rem;">
+                            <a href="${corso.pdf}" target="_blank" class="btn btn-outline btn-small" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                                📄 Visualizza Certificato PDF
+                            </a>
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+        }
+        
+        // ========================================
+        // GESTIONE ERRORI
+        // ========================================
+        function showError(message) {
+            const main = document.getElementById('mainContent');
+            main.innerHTML = `
+                <div class="alert alert-error">
+                    <h3 style="margin-bottom: 0.5rem;">⚠️ Errore</h3>
+                    <p>${message}</p>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="?" class="btn btn-primary">Torna alla Home</a>
+                </div>
+            `;
+        }
+        
+        // ========================================
+        // GESTIONE ERRORI
+        // ========================================</script>
+</body>
+</html>

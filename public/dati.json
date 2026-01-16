@@ -1,0 +1,703 @@
+{
+  "operatori": {
+    "N1": {
+      "nome": "Giuseppe",
+      "cognome": "Cigliano",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "COVID RUOLI E COMPITI DEL VOLONTARIATO",
+          "anno": 2020,
+          "ente": "Dipartimento Nazionale della Protezione Civile - Regione Campania",
+          "ore": "non segnato",
+          "pdf": null
+        },
+        {
+          "nome": "SICUREZZA VOLONTARI DI PROTEZIONE CIVILE (D.Lgs. 81/08)",
+          "anno": 2019,
+          "ente": "Regione Campania – Protezione Civile",
+          "ore": "non segnato",
+          "pdf": null
+        },
+        {
+          "nome": "VOLONTARIATO NEL SISTEMA DI PROTEZIONE CIVILE",
+          "anno": 2005,
+          "ente": "Dipartimento Nazionale della Protezione Civile",
+          "ore": "non segnato",
+          "pdf": null
+        },
+        {
+          "nome": "ANTINCENDIO RISCHIO ELEVATO",
+          "anno": 2017,
+          "ente": "Corpo Nazionale dei Vigili del Fuoco",
+          "ore": "non segnato",
+          "pdf": null
+        },
+        {
+          "nome": "BLSD – PBLSD",
+          "anno": 2025,
+          "ente": "Centro di Formazione BLSD accreditato Regione Campania / IRC",
+          "ore": "non segnato",
+          "pdf": null
+        }
+      ]
+    },
+    "N7": {
+      "nome": "Giuseppe",
+      "cognome": "Panzardi",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+     {
+          "nome": "Il percorso della donazione e del trapianto di organi",
+          "anno": 2018,
+          "ente": "Regione Campania - Sistema Sanitario Regionale",
+          "ore": "non segnato",
+          "pdf": null
+        },
+        {
+          "nome": "Sicurezza Volontari di Protezione Civile (D.Lgs. 81/08)",
+          "anno": 2019,
+          "ente": "Regione Campania – Protezione Civile",
+          "ore": "non segnato",
+          "pdf": null
+        },
+        {
+          "nome": "Antincendio Rischio Elevato",
+          "anno": 2017,
+          "ente": "Corpo Nazionale dei Vigili del Fuoco - Comando Regionale Campania (Napoli)",
+          "ore": "non segnato",
+          "pdf": null
+        }
+      ]
+    },
+    "N10": {
+      "nome": "Francesco",
+      "cognome": "Luongo",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Sicurezza Volontari di Protezione Civile (D.Lgs. 81/08)",
+          "anno": 2019,
+          "ente": "Regione Campania – Protezione Civile",
+          "ore": "non segnato",
+          "pdf": null
+        }
+      ]
+    },
+    "N18": {
+      "nome": "Vincenzo",
+      "cognome": "Maltese",
+      "qualifica":" Volontario Operativo",
+      "corsi": [
+  {
+    "nome": "Ricerca persone scomparse/disperse in ambiente impervio",
+    "anno": 2024,
+    "ente": "Dipartimento Nazionale della Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Fenomeno bradisismico nell’area dei Campi Flegrei",
+    "anno": 2024,
+    "ente": "Regione Campania - Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Il percorso della donazione e del trapianto di organi",
+    "anno": 2018,
+    "ente": "Regione Campania - Sistema Sanitario Regionale",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Tecniche di cartografia e orientamento nelle attività di ricerca dispersi",
+    "anno": 2023,
+    "ente": "Dipartimento Nazionale della Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Sicurezza Volontari di Protezione Civile (D.Lgs. 81/08)",
+    "anno": 2019,
+    "ente": "Regione Campania – Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "MMT – Conduzione escavatori",
+    "anno": 2023,
+    "ente": "Regione Campania – Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "BLSD – PBLSD",
+    "anno": 2025,
+    "ente": "Centro BLSD accreditato Regione Campania / IRC",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Antincendio Rischio Elevato",
+    "anno": 2017,
+    "ente": "Corpo Nazionale dei Vigili del Fuoco – Comando Regionale Campania (Napoli)",
+    "ore": "non segnato",
+    "pdf": null
+  }
+]
+
+    },
+    "N52": {
+      "nome": "Pietro Paolo",
+      "cognome": "Di Maio",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+    "nome": "Antincendio Rischio Elevato",
+    "anno": 2025,
+    "ente": "Corpo Nazionale dei Vigili del Fuoco – Comando Regionale Campania (Napoli)",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "BLSD – PBLSD",
+    "anno": 2025,
+    "ente": "Centro BLSD accreditato Regione Campania / IRC",
+    "ore": "non segnato",
+    "pdf": null
+  }
+      ]
+    },
+    "N70": {
+      "nome": "Salvatore",
+      "cognome": "Barone",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+    "nome": "Antincendio Rischio Elevato",
+    "anno": 2025,
+    "ente": "Corpo Nazionale dei Vigili del Fuoco – Comando Regionale Campania (Napoli)",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "BLSD – PBLSD",
+    "anno": 2025,
+    "ente": "Centro BLSD accreditato Regione Campania / IRC",
+    "ore": "non segnato",
+    "pdf": null
+  }
+      ]
+    },
+    "N92": {
+      "nome": "Giovanni",
+      "cognome": "Capuano",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+          {
+    "nome": "Encomio solenne Comune di Forio",
+    "anno": 2007,
+    "ente": "Comune di Forio (NA)",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Esperto di Protezione Civile",
+    "anno": 2010,
+    "ente": "Dipartimento Nazionale della Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Fenomeno bradisismico nell’area dei Campi Flegrei",
+    "anno": 2024,
+    "ente": "Regione Campania – Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Esercitazione LUCENSIS",
+    "anno": 2014,
+    "ente": "Dipartimento Nazionale della Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "COVID – Ruoli e compiti del volontariato",
+    "anno": 2020,
+    "ente": "Dipartimento Nazionale della Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Volontari di Protezione Civile in emergenza COVID",
+    "anno": 2021,
+    "ente": "Dipartimento Nazionale della Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "E 20 M – Applicazione",
+    "anno": 2019,
+    "ente": "Dipartimento Nazionale della Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Il percorso della donazione e del trapianto di organi",
+    "anno": 2018,
+    "ente": "Regione Campania – Sistema Sanitario Regionale",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Tecniche di cartografia e orientamento nelle attività di ricerca dispersi",
+    "anno": 2023,
+    "ente": "Dipartimento Nazionale della Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Sicurezza Volontari di Protezione Civile (D.Lgs. 81/08)",
+    "anno": 2019,
+    "ente": "Regione Campania – Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Squadra droni – Tecnico termocamera",
+    "anno": 2025,
+    "ente": "Regione Campania – Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "MMT – Conduzione escavatori",
+    "anno": 2023,
+    "ente": "Regione Campania – Protezione Civile",
+    "ore": "non segnato",
+    "pdf": null
+  },
+  {
+    "nome": "Antincendio Rischio Elevato",
+    "anno": 2022,
+    "ente": "Corpo Nazionale dei Vigili del Fuoco – Comando Regionale Campania (Napoli)",
+    "ore": "non segnato",
+    "pdf": null
+  }
+      ]
+    },
+    "N95": {
+      "nome": "Antonio",
+      "cognome": "Impagliazzo",
+      "qualifica": "Volontario Operativo",
+      "corsi": [ 
+        {
+      "nome": "Il percorso della donazione e del trapianto di organi",
+      "anno": 2018,
+      "ente": "Regione Campania – Sistema Sanitario Regionale",
+      "ore": "non segnato",
+      "pdf": null
+    },
+    {
+      "nome": "BLSD – PBLSD",
+      "anno": 2025,
+      "ente": "Croce Rossa Italiana – Comitato Regionale Campania",
+      "ore": "non segnato",
+      "pdf": null
+    },
+    {
+      "nome": "Antincendio Rischio Elevato",
+      "anno": 2017,
+      "ente": "Corpo Nazionale dei Vigili del Fuoco – Comando Regionale Campania (Napoli)",
+      "ore": "non segnato",
+      "pdf": null
+    }
+
+      ]
+    },
+    "N120": {
+      "nome": "Salvatore",
+      "cognome": "Romano",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2017,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        },
+        {
+          "nome": "Formazione Coordinatori",
+          "anno": 2018,
+          "ente": "Regione Campania",
+          "ore": "40 ore",
+          "pdf": null
+        },
+        {
+          "nome": "Gestione Centro Operativo",
+          "anno": 2019,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        },
+        {
+          "nome": "Pianificazione Emergenze",
+          "anno": 2020,
+          "ente": "Regione Campania",
+          "ore": "32 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N125": {
+      "nome": "Vito",
+      "cognome": "Di Maio",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2021,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N127": {
+      "nome": "Adolfo",
+      "cognome": "Iacono",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2020,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        },
+        {
+          "nome": "Radio Operatore",
+          "anno": 2021,
+          "ente": "Regione Campania",
+          "ore": "16 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N131": {
+      "nome": "Valentino",
+      "cognome": "Criscuolo",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2019,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N136": {
+      "nome": "Michele",
+      "cognome": "Cirelli",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2020,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N137": {
+      "nome": "Alberto",
+      "cognome": "D'Abundo",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2020,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        },
+        {
+          "nome": "Tecniche di Spegnimento",
+          "anno": 2021,
+          "ente": "Regione Campania",
+          "ore": "20 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N138": {
+      "nome": "Antonino",
+      "cognome": "Maltese",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2019,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N143": {
+      "nome": "Nicola",
+      "cognome": "Fiorentino",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2021,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N144": {
+      "nome": "Almerinda",
+      "cognome": "Di Maio",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2020,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        },
+        {
+          "nome": "Gestione Cucina da Campo",
+          "anno": 2021,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "16 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N145": {
+      "nome": "Michele",
+      "cognome": "Matarese",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2019,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N146": {
+      "nome": "Ida",
+      "cognome": "Matarese",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2020,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        },
+        {
+          "nome": "Primo Soccorso",
+          "anno": 2021,
+          "ente": "Croce Rossa Italiana",
+          "ore": "12 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N148": {
+      "nome": "Francesco",
+      "cognome": "Vuolo",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2021,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N149": {
+      "nome": "Mariarosaria",
+      "cognome": "Iacono",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2020,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N150": {
+      "nome": "Luca",
+      "cognome": "Russo",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2021,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        },
+        {
+          "nome": "Uso Droni per Ricerca",
+          "anno": 2022,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "20 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N151": {
+      "nome": "Valentino",
+      "cognome": "Russo",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2020,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N153": {
+      "nome": "Mariarachele",
+      "cognome": "Iervolino",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2021,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N155": {
+      "nome": "Giovanni",
+      "cognome": "Migliaccio",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2020,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N156": {
+      "nome": "Emmanuel",
+      "cognome": "Di Massa",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2021,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N159": {
+      "nome": "Giovanni",
+      "cognome": "Di Costanzo",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2020,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N162": {
+      "nome": "Simone",
+      "cognome": "Verde",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2021,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        },
+        {
+          "nome": "Comunicazioni di Emergenza",
+          "anno": 2022,
+          "ente": "Regione Campania",
+          "ore": "16 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N163": {
+      "nome": "Concetta",
+      "cognome": "Pascale",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+        {
+          "nome": "Corso Base Protezione Civile",
+          "anno": 2020,
+          "ente": "DPC - Dipartimento Protezione Civile",
+          "ore": "24 ore",
+          "pdf": null
+        }
+      ]
+    },
+    "N164J": {
+      "nome": "Giuliano",
+      "cognome": "Iacono",
+      "qualifica": "Volontario",
+      "corsi": [
+      
+      ]
+    },
+    "N165J": {
+      "nome": "Daniel",
+      "cognome": "De Siano",
+      "qualifica": "Volontario",
+      "corsi": [
+      
+      ]
+    },
+     "N166": {
+      "nome": "Manuel",
+      "cognome": "Coletti",
+      "qualifica": "Volontario Operativo",
+      "corsi": [
+      
+      ]
+    }
+    
+  }
+}
